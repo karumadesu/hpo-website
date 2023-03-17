@@ -1,3 +1,24 @@
-.main-container{
-    background-image: 
+@font-face {
+    font-family: LEMONMILK-MediumItalic;
+    src: url('fonts/LEMONMILK-MediumItalic.otf');
+  }
+
+  @font-face {
+    font-family: framdit;
+    src: url('public/fonts/framdit.TTF');
+  }
+  
+body {
+    background-image: url("images/BG.png");
+}
+h1 {
+    font-family: 'LEMONMILK-MediumItalic';
+    font-size: 100px;
+    color: white;
+}
+h2 {
+    font-family: 'framdit';
+    font-variant-caps: all-petite-caps;
+    font-size: 75px;
+    color:darkturquoise;
 }
